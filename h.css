@@ -1,0 +1,47 @@
+ h1{
+    text-align: center;
+    color: black;
+    font-size: 60px;
+    background-color: hwb(180 22% 75%);
+ }
+ p{
+    text-align: center;
+    color: rgb(10, 10, 11);
+    font-style: italic;
+    font-size: 20px;
+ }
+ h2 {
+     text-align: center;
+     color: black;
+     background-color: whitesmoke;
+     font-style: oblique;
+     font-weight: bold;
+     font-size: 40px;
+ }
+
+ table,tr,td{ 
+    size: 60px;
+     color: hwb(0 75% 22%);
+     border: 5px solid whitesmoke;
+     font-size: 27px;
+     background-color: rgb(10, 9, 10);
+     font-style: italic;
+ }
+
+ .column {
+      float: left;
+      width: 33.33%;
+      padding: 20px;
+      box-sizing: border-box;
+      color: darkkhaki;
+      background-color: hwb(180 28% 71%);
+      background-position: center;
+ }
+ .column:hover{
+    color: chartreuse;
+ }
+ .row::after {
+    content: "";
+    clear: both;
+    display: table;
+ }
